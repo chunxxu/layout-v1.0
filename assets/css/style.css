@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    font-family: Cairo, sans-serif;
+    background-color:white;
+}
+
+.map {
+    padding: 10px;
+
+}
+
+a {
+    color: yellowgreen;
+
+}
+
+a:hover {
+    color: black;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    background-color: rgba(0, 7, 10, 0.71);
+    transition: .5s ease;
+}
+
+.overlay:hover {
+    background-color: rgba(240,240,240,0.7);
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
